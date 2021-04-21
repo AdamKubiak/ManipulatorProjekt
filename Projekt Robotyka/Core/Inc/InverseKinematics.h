@@ -16,9 +16,9 @@ typedef struct
 	float servo3;
 }servo;
 
-int Theta1(int angle);
-int Theta2(int angle);
-int Theta3(int angle);
+float Theta1(float angle);
+float Theta2(float angle);
+float Theta3(float angle);
 void InverseKinematics(float X, float Y,servo *obiekt);
 
 
